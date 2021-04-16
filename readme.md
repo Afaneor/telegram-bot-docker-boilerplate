@@ -6,7 +6,7 @@ To configure the bot use .env file
 You should pass your bot api token which you get from @botfather
 
 ```
-BOT_TOKEN=YOUR_TOKE_FROM_BOT_FATHER
+BOT_TOKEN=YOUR_TOKEN_FROM_BOT_FATHER
 ```
 
 
