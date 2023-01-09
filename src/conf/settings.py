@@ -17,4 +17,3 @@ if READ_DOT_ENV_FILE and (ROOT_DIR / '.env').exists():
 logger.add(sys.stderr, format='{time} {level} {message}')
 
 BOT_TOKEN = env.str('BOT_TOKEN', default='')
-JOB_TIME = env.int('JOB_TIME', default=60)  # Time to delete bot messages in seconds, default one hour
