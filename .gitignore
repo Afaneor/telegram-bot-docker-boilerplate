@@ -308,3 +308,4 @@ nova/media/
 frontend
 media/
 static/
+.env

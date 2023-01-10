@@ -1,12 +1,11 @@
 FROM python:3.8-slim-buster as python-base
 
 ENV PYTHONUNBUFFERED=1 \
-    POETRY_VIRTUALENVS_CREATE=false \
     PIP_DISABLE_PIP_VERSION_CHECK=on \
     PIP_NO_CACHE_DIR=off \
     USE_DOCKER=1 \
 	# poetry:
-	POETRY_VERSION=1.1.4 \
+	POETRY_VERSION=1.2.0 \
 	POETRY_VIRTUALENVS_CREATE=false \
 	POETRY_CACHE_DIR='/var/cache/pypoetry'
 
