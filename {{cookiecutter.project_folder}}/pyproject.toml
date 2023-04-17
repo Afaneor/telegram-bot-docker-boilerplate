@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "telegram_boilerplate"
+name = "{{cookiecutter.telegram_bot_name}}"
 version = "0.1.0"
 description = "Telegram boilerplate bot"
 authors = ["Nikolay Pavlin <afaneor@gmail.com>"]
